@@ -1,13 +1,25 @@
-# Rockwind Web App
+# rockwind
 
-NET Core 2.0 Rockwind Web App.
+Rockwind is an example Web App combining mult-layout Rockstars website + data-driven Nortwhind Browser
 
-The `/app` folder contains the Rockwind Web App project.
+[![](https://raw.githubusercontent.com/NetCoreApps/TemplatePages/master/src/wwwroot/assets/img/screenshots/rockwind.png)](http://rockwind-sqlite.web-app.io)
 
-The `/web` folder contains the [Web Apps binaries](https://github.com/NetCoreWebApps/Web).
+## Install
 
-See [templates.servicestack.net/docs/web-apps](http://templates.servicestack.net/docs/web-apps) to learn about ServiceStack Web Apps.
+Run as a Desktop App (Windows only):
 
-[![](http://templates.servicestack.net/assets/img/screenshots/rockwind.png)](http://rockwind-sqlite.web-app.io)
+    $ dotnet tool install -g app
 
-> Live Demo: http://rockwind-sqlite.web-app.io
+    $ app install rockwind
+    $ cd rockwind && app
+
+Run as a .NET Core Web App (Windows, macOS, Linux):
+
+    $ dotnet tool install -g web
+
+    $ web install rockwind
+    $ cd rockwind && web
+
+## Learn
+
+See [templates.servicestack.net/docs/web-apps](http://templates.servicestack.net/docs/web-apps) to learn about ServiceStack .NET Core 2.1 Web Apps.
